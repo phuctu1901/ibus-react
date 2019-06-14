@@ -232,7 +232,7 @@ export default class MomoPayment extends React.Component {
         description: description
       })
     );
-    fetch("http://192.168.43.177:8000/api/ticket/buy", {
+    fetch("http://192.168.1.100:8000/api/ticket/buy", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"

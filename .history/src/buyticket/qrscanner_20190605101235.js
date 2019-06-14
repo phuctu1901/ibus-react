@@ -40,7 +40,7 @@ async getRouteByStationId(station_id){
     //   }),
     // }).then().then().catch();
     
-    fetch('http://192.168.43.177:8000/api/route/getroute', {
+    fetch('http://192.168.1.100:8000/api/route/getroute', {
         method:'POST',
         headers: {
                 Accept: 'application/json',

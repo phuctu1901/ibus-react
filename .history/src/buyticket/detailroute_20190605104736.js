@@ -34,7 +34,7 @@ export default class DetailRoute extends React.Component {
     let route = this.props.navigation.params.route;
     console.log(route);
     let stations;
-    fetch('http://192.168.43.177:8000/api/route/getroutedetail', {
+    fetch('http://192.168.1.100:8000/api/route/getroutedetail', {
         method:'POST',
         headers: {
                 Accept: 'application/json',
