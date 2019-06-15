@@ -122,8 +122,7 @@ async getRouteByStationId(station_id){
     if (!this.state.opneScanner) {
       return (
         <View style={styles.container}>
-            <Text style={styles.simpleText}>Đưa camera về phía mã QR của trạm</Text>
-            <Text style={styles.simpleText}>và bật máy quét</Text>
+            <Text style={styles.sim }>Đưa camera về phía mã QR của trạm và bật máy quét</Text>
             {/* <Text style={styles.simpleText}>{this.state.qrvalue ? 'Scanned QR Code: '+this.state.qrvalue : ''}</Text> */}
             {this.state.qrvalue.includes("http") ? 
               <TouchableHighlight
